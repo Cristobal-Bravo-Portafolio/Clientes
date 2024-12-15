@@ -1,0 +1,650 @@
+{
+  "menuData": [
+  {
+  "id": "entradasfrias",
+  "title": "ENTRADAS FRÍAS",
+  "subtitle": "SASHIMI",
+  "image":"/img/menu/carta/1entradasfrias.jpg",
+  "items": [
+  {
+  "id": 1,
+  "name": "SAKE",
+  "description": "5 cortes de salmón.",
+  "price": 7500,
+  "image": "/img/menu/platillos/1sake.jpg"
+  },
+  {
+  "id": 2,
+  "name": "SHIROMI",
+  "description": "5 cortes de pescado del día.",
+  "price": 7500,
+  "image": "/img/menu/platillos/2shiromi.jpg"
+  },
+  {
+  "id": 3,
+  "name": "TAKO",
+  "description": "5 cortes de pulpo.",
+  "price": 7500,
+  "image": "/img/menu/platillos/3tako.jpg"
+  },
+  {
+  "id": 4,
+  "name": "SASHIMI MIX",
+  "description": "12 cortes (Pulpa, Shiromi y Sake).",
+  "price": 13500,
+  "image": "/img/menu/platillos/4sashimimix.jpg"
+  }
+  ]
+  },
+  {
+  "id": "entradascalientes",
+  "title": "ENTRADAS CALIENTES",
+  "subtitle": "",
+  "image":"/img/menu/carta/2entradascalientes.jpg",
+  "items": [
+  {
+  "id": 5,
+  "name": "GYOSAS DE CAMARÓN",
+  "description": "5 unidades.",
+  "price": 4900,
+  "image": "/img/menu/platillos/5gyosadecamaron.jpg"
+  },
+  {
+  "id": 6,
+  "name": "GYOSAS DE POLLO",
+  "description": "5 unidades.",
+  "price": 4900,
+  "image": "/img/menu/platillos/6gyosadepolloocerdo.jpg"
+  },
+  {
+  "id": 7,
+  "name": "EBI PANKO",
+  "description": "5 unidades de camarón apanado",
+  "price": 6500,
+  "image": "/img/menu/platillos/7ebipanko.jpg"
+  },
+  {
+  "id": 8,
+  "name": "ALITAS FRITAS",
+  "description": "5 unidades crocantes.",
+  "price": 6900,
+  "image": "/img/menu/platillos/8alitasfritas.jpg"
+  },
+  {
+  "id": 9,
+  "name": "AJI FURAY",
+  "description": "Relleno de salmón, queso crema.",
+  "price": 4500,
+  "image": "/img/menu/platillos/9ajifuray.jpg"
+  }
+  ]
+   },
+    {
+      "id": "makis",
+      "title": "MAKIS",
+      "subtitle": "SUSHI TRADICIONAL",
+      "description": "Pueden ser cubierta en palta, salmón, tempura, queso crema, panko, sésamo, masago (o) ciboulette:",
+      "image": "/img/menu/carta/3makissushitradicional.jpg",
+      "items": [
+      {
+      "id": 10,
+      "name": "CARIÑO ROLLS",
+      "description": "Salmón, Queso Crema y Cebollín (Cobertura a Elección).",
+      "price": 6800,
+      "image": "/img/menu/platillos/10cariñorolls.jpg"
+      },
+      {
+      "id": 11,
+      "name": "EBI SAKE",
+      "description": "Camarón, Queso Crema y Salmón (Cobertura a Elección).",
+      "price": 6800,
+      "image": "/img/menu/platillos/11ebisake.jpg"
+      },
+      {
+      "id": 12,
+      "name": "TAKO ROLL",
+      "description": "Pulpo, queso crema, cebollín (o) palta (Cobertura a Elección).",
+      "price": 6800,
+      "image": "/img/menu/platillos/12takoroll.jpg"
+      },
+      {
+      "id": 13,
+      "name": "AVOCADO SAKE",
+      "description": "Salmón, queso crema, palta (Cobertura a Elección).",
+      "price": 6800,
+      "image": "/img/menu/platillos/13avocadosake.jpg"
+      },
+      {
+      "id": 14,
+      "name": "KANI ROLLS",
+      "description": "Kanikama, Queso Crema, Cebollín o Palta (Cobertura a elección).",
+      "price": 6800,
+      "image": "/img/menu/platillos/14kanirolls.jpg"
+      },
+      {
+      "id": 15,
+      "name": "SAKEDU ROLLS",
+      "description": "Camarón, Queso Crema y Palta (Cobertura a Elección).",
+      "price": 6800,
+      "image": "/img/menu/platillos/15sakedurolls.jpg"
+      },
+      {
+      "id": 16,
+      "name": "FRUTI ROLLS",
+      "description": "Frutilla, queso crema, durazno (Cobertura a Elección).",
+      "price": 6800,
+      "image": "/img/menu/platillos/16frutirolls.jpg"
+      },
+      {
+      "id": 17,
+      "name": "SUSHITO ROLLS",
+      "description": "Aceituna, Queso Crema y Palta (Cobertura a Elección).",
+      "price": 6800,
+      "image": "/img/menu/platillos/17sushitorolls.jpg"
+      },
+      {
+      "id": 18,
+      "name": "EBI FURAY",
+      "description": "Camarón, Queso Crema y Cebollín (Cobertura a Elección).",
+      "price": 6800,
+      "image": "/img/menu/platillos/18ebifuray.jpg"
+      },
+      {
+      "id": 19,
+      "name": "TORI FURAY",
+      "description": "Pollo panko, queso crema, cebollín (o) palta (Cobertura a Elección).",
+      "price": 6800,
+      "image": "/img/menu/platillos/19torifuray.jpg"
+      }
+      ]
+      },
+      {
+        "id": "sushinikkei",
+        "title": "SUSHI NIKKEI",
+        "subtitle": "PERUANO JAPONÉS",
+        "image": "/img/menu/carta/4sushinikkeiperuanojapones.jpg",
+        "items": [
+        {
+        "id": 20,
+        "name": "ACEVICHADO",
+        "description": "Camarón tempura, palta, queso crema cubierto en salmón, salsa acevichada y crispy de camote al hilo.",
+        "price": 8950,
+        "image": "/img/menu/platillos/20acevichado.jpg"
+        },
+        {
+        "id": 21,
+        "name": "AMAI",
+        "description": "Camarón Panko y Queso Crema, cubierto con Plátano Frito, bañado en Salsa Passion y Masa Crocante.",
+        "price": 8550,
+        "image": "/img/menu/platillos/21amai.jpg"
+        },
+        {
+        "id": 22,
+        "name": "CALIFORNIA",
+        "description": "Camarón Panko y Palta, envuelto en Ciboulettecon Tartar de Pulpo, Kanikama y Masago; Sopleteado con Mayo Spicy y Salsa de Anguila.",
+        "price": 8950,
+        "image": "/img/menu/platillos/22california.jpg"
+        },
+        {
+        "id": 23,
+        "name": "CUZCO",
+        "description": "Camarón Panko, Palta y Jaiba, cubierto en Salmón, Sopleteado con Mantequilla Batayaki y Toques de Cebollín.",
+        "price": 8550,
+        "image": "/img/menu/platillos/23cuzco.jpg"
+        },
+        {
+        "id": 24,
+        "name": "CHANCHURRI ROLL",
+        "description": "Camarón Panko y Palta, cubierto en Queso Crema sopleteado con Chimichurri y Salsa de Anguila.",
+        "price": 8550,
+        "image": "/img/menu/platillos/24chimichurriroll.jpg"
+        },
+        {
+        "id": 25,
+        "name": "TAKO ACEVICHADO",
+        "description": "Camarón Panko y Palta, cubierto con Salmón Sopleteado con Mantequilla Batayaki y Tartar de Pulpo Acevichado.",
+        "price": 8950,
+        "image": "/img/menu/platillos/25takoacevichado.jpg"
+        },
+        {
+        "id": 26,
+        "name": "BETABEL ROLL",
+        "description": "Relleno de Salmón y Queso Crema. Cubierto en Palta, Bañado con Salsa Betabel Cevichera y Camote al Hilo.",
+        "price": 8550,
+        "image": "/img/menu/platillos/26betabelroll.jpg"
+        },
+        {
+        "id": 27,
+        "name": "TAKO OLIVO",
+        "description": "Pescado Panko y Queso Crema. Cubierto en Palta (Sopleteada) y Tartar de Pulpo al Olivo.",
+        "price": 8550,
+        "image": "/img/menu/platillos/27takoolivo.jpg"
+        },
+        {
+        "id": 28,
+        "name": "MITSUHA ROLL",
+        "description": "Camarón o Salmón, Queso Crema y Palta, cubierto con Salmón, Gajos de Limón, Sopleteado en Mantequilla Batayaki y Salsa Unagui.",
+        "price": 8550,
+        "image": "/img/menu/platillos/28mitsuharoll.jpg"
+        },
+        {
+        "id": 29,
+        "name": "PERUVIAN ROLL",
+        "description": "Camarón Panko y Palta, cubierto en Sésamo con Ceviche Carretillero y Camote al Hilo.",
+        "price": 8550,
+        "image": "/img/menu/platillos/29peruvianroll.jpg"
+        },
+        {
+        "id": 30,
+        "name": "HUANCAÍNA MITSUHA",
+        "description": "Camarón tempura, palta,cubierta en palta bañado en nuestra tradicional crema a la huancaina y papa al hilo.",
+        "price": 86550,
+        "image": "/img/menu/platillos/30huancainamitsuha.jpg"
+        },
+        {
+        "id": 31,
+        "name": "BONITO ROLLS",
+        "description": "Salmón, (o) camarón tempura, queso crema, palta, en tempura bañado en salsa de anguila y bonito deshidratado.",
+        "price": 8550,
+        "image": "/img/menu/platillos/31bonitorolls.jpg"
+        },
+        {
+        "id": 32,
+        "name": "TEMPURA",
+        "description": "Camarón panko,palta,durazno, cubierto en nori frito en tempura topping de salmón fuji y salsa acevichada.",
+        "price": 8950,
+        "image": "/img/menu/platillos/32tempura.jpg"
+        },
+        {
+        "id": 33,
+        "name": "PASSION TORI",
+        "description": "Relleno de pollo furay, durazno,queso crema, cebollín,en tempura y bañado en salsa passion.",
+        "price": 8550,
+        "image": "/img/menu/platillos/33passiontori.jpg"
+        }
+        ]
+        },
+        {
+          "id": "sinarroz",
+          "title": "ROLLS ESPECIALES",
+          "subtitle": "SIN ARROZ",
+          "image": "/img/menu/carta/5rollsespecialessinarroz.jpg",
+          "items": [
+          {
+          "id": 34,
+          "name": "ZENKAI",
+          "description": "Relleno con Láminas de Pesca del Día, Salmón, Palta, Jaiba y Camarón Furai, Envuelto en Papel de Arroz Bañado con Salsa Zenkai.",
+          "price": 9900,
+          "image": "/img/menu/platillos/34zenkai.jpg"
+          },
+          {
+          "id": 35,
+          "name": "BATAYAKI",
+          "description": "Láminas de salmón y pescado blanco,camarón empanizado y palta sopleteado con mantequilla batayaki y toque de furikake. ",
+          "price": 9900,
+          "image": "/img/menu/platillos/35batayaki.jpg"
+          },
+          {
+          "id": 36,
+          "name": "VEGAN ROLL",
+          "description": "Palta, zanahoria, pimentón, aceituna, cebollín. (cubierta a elección).",
+          "price": 8000,
+          "image": "/img/menu/platillos/36veganroll.jpg"
+          },
+          {
+          "id": 37,
+          "name": "CRUNCH ROLL",
+          "description": "Salmón empanizado,queso crema (o) palta. frito en panko y topping de salmón macerado en salsa de anguila y toques de doritos deshidratados.",
+          "price": 9500,
+          "image": "/img/menu/platillos/37crunchroll.jpg"
+          }
+          ],
+          "ceviches": {
+          "title": "CEVICHES Y TIRADITOS",
+          "subtitle": "entradas",
+          "image": "/img/menu/card/6cevichesytiraditos.jpg",
+          "items": [
+          {
+          "id": 38,
+          "name": "TIRADITO NIKKEI",
+          "description": "12 Finos Cortes de Salmón o Pesca del Día, Sobre una Salsa Criolla Mitsuha, Chalaquita y Furikake.",
+          "price": 12000,
+          "image": "/img/menu/platillos/38tiraditonikkei.jpg"
+          },
+          {
+          "id": 39,
+          "name": "TOROPIKARU",
+          "description": "Pesca del día, camarones cebolla morada y leche de tigre carretillero y camote crocante.",
+          "price": 9900,
+          "image": "/img/menu/platillos/39toropikaru.jpg"
+          }
+          ]
+          }
+          },
+          {
+            "id": "saboresdelperu",
+            "title": "SABORES DEL PERÚ",
+            "image": "/img/menu/carta/7saboresdelperu.jpg",
+            "items": [
+            {
+            "id": 40,
+            "name": "LOMO SALTADO",
+            "description": "Filete de vacuno salteado con cebolla morada y tomate acompañado con arroz blanco. ",
+            "price": 15000,
+            "image": "/img/menu/platillos/40lomosaltado.jpg"
+            },
+            {
+            "id": 41,
+            "name": "ARROZ CON MARISCOS",
+            "description": "Mixtura de marisco con salsa madre y arroz. ",
+            "price": 14900,
+            "image": "/img/menu/platillos/41arrozconmariscos.jpg"
+            },
+            {
+            "id": 42,
+            "name": "ARROZ CHAUFA DE POLLO",
+            "description": "Mixtura de pollo con salsa madre y arroz.",
+            "price": 12000,
+            "image": "/img/menu/platillos/42arrozchaufadepollo.jpg"
+            },
+            {
+            "id": 43,
+            "name": "ARROZ CHAUFA DE MARISCOS",
+            "description": "Mixtura de marisco con salsa madre y arroz. ",
+            "price": 13900,
+            "image": "/img/menu/platillos/43arrozchaufademariscos.jpg"
+            },
+            {
+            "id": 44,
+            "name": "ARROZ CHAUFA DE VACUNO",
+            "description": "Mixtura de carne de vacuno con vegetales y arroz.",
+            "price": 13500,
+            "image": "/img/menu/platillos/44arrozchaufadevacuno.jpg"
+            }
+            ]
+            },
+            {
+              "id": "sopas",
+              "title": "SOPAS",
+              "image":"/img/menu/carta/8sopas.jpg",
+              "items": [
+                  {
+                      "id": 45,
+                      "name": "MISO SOUP",
+                      "description": "Base de soya, camarón, cebollín y fideos.",
+                      "price": 5000,
+                      "image": "/img/menu/platillos/45misosoup.jpg"
+                  },
+                  {
+                      "id": 46,
+                      "name": "ICHIBAN SOUP",
+                      "description": "Sopa de fideos con camarones y cebollín.",
+                      "price": 6500,
+                      "image": "/img/menu/platillos/46ichibansoup.jpg"
+                  },
+                  {
+                      "id": 47,
+                      "name": "SPICY RAMEN",
+                      "description": "Caldo concentrado picante acompañado de huevo encurtido, choclo, cebollín, alga, repollo y diente de dragón.",
+                      "price": 8000,
+                      "image": "/img/menu/platillos/47spicyramen.jpg"
+                  },
+                  {
+                      "id": 48,
+                      "name": "MISO RAMEN",
+                      "description": "Caldo concentrado y miso acompañado de huevo encurtido, choclo, cebollín, alga, repollo, diente de dragón.",
+                      "price": 8000,
+                      "image": "/img/menu/platillos/48misoramen.jpg"
+                  }
+              ]
+          },
+          {
+            "id": "ensaladamitsuha",
+            "title": "ENSALADA MITSUHA",
+            "image": "/img/menu/carta/9ensaladas.jpg",
+            "items": [
+                {
+                    "id": 49,
+                    "name": "TONKATSU",
+                    "description": "Milanesa de cerdo al panko, acompañado de ensaladilla y patata.",
+                    "price": 10000,
+                    "image": "/img/menu/platillos/49tonkatsu.jpg"
+                },
+                {
+                    "id": 50,
+                    "name": "CHIKEN KATSU",
+                    "description": "Milanesa de pollo al panko y mix de verduras y palta.",
+                    "price": 10000,
+                    "image": "/img/menu/platillos/50chikenkatsu.jpg"
+                }
+            ]
+        },
+        {
+          "id": "gohan",
+          "title": "GOHAN",
+          "subtitle": "",
+          "image": "/img/menu/carta/10gohan.jpg",
+          "items": [
+              {
+                  "id": 51,
+                  "name": "GOHAN DE POLLO",
+                  "description": "Arroz blanco, pepino, cebollín, zanahoria, betarraga, pollo furay o teriyaki, palta, queso.",
+                  "price": 5500,
+                  "image": "/img/menu/platillos/51gohandepollo.jpg"
+              },
+              {
+                  "id": 52,
+                  "name": "GOHAN DE SALMÓN",
+                  "description": "Arroz blanco, pepino, durazno, repollo, zanahoria, palta, salmón acevichado, camote hilo.",
+                  "price": 7500,
+                  "image": "/img/menu/platillos/52gohandesalmon.jpg"
+              }
+          ]
+      },
+      {
+          "id": "handroll",
+          "title": "HAND ROLL",
+          "subtitle": "",
+          "image": "/img/menu/carta/11handroll.jpg",
+          "items": [
+              {
+                  "id": 53,
+                  "name": "POLLO PANKO, QUESO CREMA, CEBOLLÍN",
+                  "description": "",
+                  "price": 3500,
+                  "image": "/img/menu/platillos/53handrollpollo.jpg"
+              },
+              {
+                  "id": 54,
+                  "name": "KANIKAMA, QUESO CREMA, CEBOLLÍN",
+                  "description": "",
+                  "price": 3500,
+                  "image": "/img/menu/platillos/54handrollkanikama.jpg"
+              },
+              {
+                  "id": 55,
+                  "name": "SALMÓN, QUESO CREMA, CEBOLLÍN",
+                  "description": "",
+                  "price": 4500,
+                  "image": "/img/menu/platillos/55handrollsalmon.jpg"
+              },
+              {
+                  "id": 56,
+                  "name": "CAMARÓN, QUESO CREMA, CEBOLLÍN",
+                  "description": "",
+                  "price": 4500,
+                  "image": "/img/menu/platillos/56handrollcamaron.jpg"
+              }
+          ]
+      },
+      
+      {
+        "id": "promociones",
+        "title": "PROMOCIONES",
+        "subtitle": "",
+        "image": "/img/menu/carta/12promociones.jpg",
+        "items": [
+            {
+                "id": 57,
+                "name": "PROMO HAND ROLL",
+                "description": "3 UNIDADES POR",
+                "price": 10000,
+                "image": "/img/menu/platillos/57promo3handroll.jpg"
+            },
+            {
+                "id": 58,
+                "name": "20 PIEZAS",
+                "description": "Surtidas básicas.",
+                "price": 12000,
+                "image": "/img/menu/platillos/58promo20piezas.jpg"
+            },
+            {
+                "id": 59,
+                "name": "30 PIEZAS",
+                "description": "Surtidas básicas.",
+                "price": 15000,
+                "image": "/img/menu/platillos/59promo30piezas.jpg"
+            },
+            {
+                "id": 60,
+                "name": "20 PIEZAS",
+                "description": "Surtidas premium.",
+                "price": 15000,
+                "image": "/img/menu/platillos/60promo20piezaspremium.jpg"
+            },
+            {
+                "id": 61,
+                "name": "30 PIEZAS",
+                "description": "Surtidas premium.",
+                "price": 25000,
+                "image": "/img/menu/platillos/61promo30piezaspremium.jpg"
+            }
+        ]
+    },
+    {
+        "id": "postres",
+        "title": "POSTRES",
+        "subtitle": "",
+        "image": "/img/menu/carta/13postres.jpg",
+        "items": [
+            {
+                "id": 62,
+                "name": "BANANA TEMPURA",
+                "description": "",
+                "price": 6500,
+                "image": "/img/menu/platillos/62bananatempura.jpg"
+            },
+            {
+                "id": 63,
+                "name": "HELADO TEMPURA",
+                "description": "",
+                "price": 6500,
+                "image": "/img/menu/platillos/63heladotempura.jpg"
+            }
+        ]
+    },
+    {
+      "id": "bebidas",
+      "title": "BEBIDAS",
+      "subtitle": "",
+      "image": "/img/menu/carta/14bebidas.jpg",
+      "items": [
+          {
+              "id": 64,
+              "name": "COCA COLA",
+              "description": "",
+              "price": 1900,
+              "image": "/img/menu/platillos/64cocacola.jpg"
+          },
+          {
+              "id": 65,
+              "name": "COCA COLA ZERO",
+              "description": "",
+              "price": 1900,
+              "image": "/img/menu/platillos/65cocacolazero.jpg"
+          },
+          {
+              "id": 66,
+              "name": "COCA COLA LIGHT",
+              "description": "",
+              "price": 1900,
+              "image": "/img/menu/platillos/66cocacolalight.jpg"
+          },
+          {
+              "id": 67,
+              "name": "FANTA",
+              "description": "",
+              "price": 1900,
+              "image": "/img/menu/platillos/67fanta.jpg"
+          },
+          {
+              "id": 68,
+              "name": "SPRITE",
+              "description": "",
+              "price": 1900,
+              "image": "/img/menu/platillos/68sprite.jpg"
+          },
+          {
+              "id": 69,
+              "name": "SPRITE ZERO",
+              "description": "",
+              "price": 1900,
+              "image": "/img/menu/platillos/69spritezero.jpg"
+          },
+          {
+              "id": 70,
+              "name": "INKA KOLA",
+              "description": "300 ml",
+              "price": 2000,
+              "image": "/img/menu/platillos/70inkakola.jpg"
+          }
+      ]
+  },
+  {
+      "id": "extras",
+      "title": "EXTRAS",
+      "subtitle": "",
+      "image": "/img/menu/carta/15extras.jpg",
+      "items": [
+          {
+              "id": 71,
+              "name": "PAPAS FRITAS 200 GR.",
+              "description": "",
+              "price": 3000,
+              "image": "/img/menu/platillos/71papasfritas.jpg"
+          },
+          {
+              "id": 72,
+              "name": "PORCIÓN ARROZ BLANCO",
+              "description": "",
+              "price": 2500,
+              "image": "/img/menu/platillos/72porcionarrozblanco.jpg"
+          }
+      ]
+  },
+  {
+      "id": "menuniños",
+      "title": "MENÚ NIÑOS",
+      "subtitle": "",
+      "image": "/img/menu/carta/16menuniños.jpg",
+      "items": [
+          {
+              "id": 73,
+              "name": "SALCHI-POLLO",
+              "description": "Pollo krispy con papas fritas.",
+              "price": 5000,
+              "image": "/img/menu/platillos/73salchipollo.jpg"
+          },
+          {
+              "id": 74,
+              "name": "SAKANA FURAY",
+              "description": "Pescado al panko con papas fritas.",
+              "price": 7000,
+              "image": "/img/menu/platillos/74sakanafuray.jpg"
+          }
+      ]
+  }
+  
+    ]
+  }
+  

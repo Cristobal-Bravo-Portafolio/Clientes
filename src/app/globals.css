@@ -1,21 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;600;700&family=Zen+Kaku+Gothic+New:wght@400;700&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --mitsuha-gold: #F7BA0D;
+  --mitsuha-dark-gold: #D6A00B;
+  --mitsuha-blue-dark: #1A1C2C;
+  --mitsuha-white: #FFFFFF;
+  --mitsuha-black: #000000;
+  --animation-timing: cubic-bezier(0.34, 1.56, 0.64, 1);
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  color: var(--mitsuha-white);
+  background: var(--mitsuha-blue-dark);
+  font-family: 'Zen Kaku Gothic New', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+h1, h2, h3 {
+  font-family: 'Crimson Pro', serif;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  transition: all 0.5s var(--animation-timing);
+}
+
+.cursor-grab { cursor: grab; }
+.cursor-grabbing { cursor: grabbing; }
+
+.group:hover .group-hover\:translate-x-2 {
+  transform: translateX(0.5rem);
+}
+
+.group:hover .group-hover\:scale-110 {
+  transform: scale(1.1);
+}
+
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.menu-row {
+  position: relative;
+  left: 0;
+  transition: left 0.1s ease-out;
+}
+
+@layer components {
+  .container-mitsuha {
+    @apply max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8;
+  }
+  .nikkei-button {
+    @apply bg-[#F7BA0D] text-black font-bold px-8 py-3 rounded-full
+           hover:bg-[#D6A00B] transition-all duration-500
+           transform hover:scale-105 active:scale-95;
+  }
+  .nikkei-card {
+    @apply bg-black/90 backdrop-blur-sm
+           border border-[#F7BA0D]/20 rounded-lg overflow-hidden
+           transition-all duration-500
+           hover:border-[#F7BA0D]/40
+           hover:shadow-lg hover:shadow-[#F7BA0D]/20;
+  }
+}
+
+@media (max-width: 640px) {
+  h1 { @apply text-4xl leading-tight; }
+  h2 { @apply text-3xl leading-tight; }
+  h3 { @apply text-2xl leading-snug; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
 }
